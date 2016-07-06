@@ -2,6 +2,7 @@
 int main()
 {
   int num,c,a=0,b=1,i;
+  scanf("%d",&num);
   printf("%d %d",a,b);
   for(i=0;i<num-2;i++)
   {

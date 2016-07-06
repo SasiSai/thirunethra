@@ -2,6 +2,7 @@
 int main()
 {
   int num,r,n=0,d;
+  scanf("%d",&d);
   scanf("%d",&num);
   while(num>0)
   {

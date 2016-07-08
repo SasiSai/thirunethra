@@ -1,5 +1,4 @@
-#include<iostream.h>
-using namespace std;
+#include<stdio.h>
 void low(string str,int n,string &res)
 {
   if(n==0)

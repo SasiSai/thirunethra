@@ -18,7 +18,12 @@ int main()
             }
         }
          if(c>=1)
-                printf("%d ",a[i]);
+         {
+            t++;
+            printf("%d ",a[i]);
+         }
   }
+  if(t==0)
+    printf("No repeated elements");
   return 0;
 }
